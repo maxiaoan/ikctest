@@ -1,112 +1,133 @@
-## 1. ready to start
+# Data Mining: Theory & Algorithms
 
-- education is the kinding of flame.
-- a teacher who is attempting to each without inspiring the pupil with a a desire to learn is hammering on cold iron
+## 1. Technology Advancement
+- Data storage has grown significantly，shift markedly from analog digital after 2000
+- Computing capacity has also risen sharply	
 
+## 2. The World of Data 
+- social networks
+- future goods
+- mobile phone
+- credit card
+- health and financial
+## 3. Data Rich，Pnformation Poor（DRIP）
 
-- Warehousing
-- Mining
+## 4. Learning  Resources
+- 《Data minning》
+  -《模式分类》
+- 《beautiful data》
+- 国际知名的期刊和会议
 
-- computing capacity
+  - International Conference on Data Mining
+  - International Conference on Data Engineering
+  - International Conference on Machine Learning
+  - International Joint Conference on Artificial Intelligence
+  - Pacific-Asia Conference on Knowledge Discovery and Data Mining
+  - ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  - 科学研究只有第一，没有第二。掌握最新动态
+- Tools工具
+  - 搜文章用Google，Google学术，
+  - UCI machine learning repository
+  - WEKA software 数据挖掘软件
+  - MATLAB中的数据挖掘软件包
 
-future goods 期货
+## 5. Interdisciplinary (跨学科)
 
-Data Rich，Pnformation Poor（DRIP）
+- Data mining 
+  - Artificial Intelligence
+  - Machine Learning
+  - Pattern Recognition
+  - Statistics
 
-《Data minning》
-《模式分类》
-《beautiful data》
+### 6. Ubiquitous(普适计算)
 
-国际知名的期刊和会议
-- TKDE
-- 跟踪国际会议
+- Data Mining
+  - Decision support
+  - Business Intelligence
+  - Data Analytics
+  - Customer Relationship Management
+  - Big Data
 
-国内国际的知名学者的研究方向和研究内容
+### 7. Comprehensive Learning
 
-科学研究只有第一，没有第二。掌握最新动态
+- Class Teaching
+  - Thinking
+  - DIscussion
+- Reading Materials
+  - Extension
+  - Inspiration
 
-搜文章一定用google，谷歌学术，
-UCI machine learning repository
+- Practice
+  - Techniques
+  - Applications
 
-- WEKA software 数据挖掘软件
-- MATLAB中的软件包
-- kd nuggets
+### 8. Data
 
-interdisciplinary 
+> **Data definition**
+> Data are pieces of information that represent the qualitative or quantitative attributes of a variable or set of variables. Data are often viewed as the lowest level of abstraction from which information and knowledge are derived.”
 
-data mining 
-- artificial intelligence
-- decision support
-- 
-- 
+- **Data Type**
+  - Continuous，Binary
+  - Discrete，String
+  - Symbolic
 
-## 2. Learning without Thought Means Labour Lost
-学好这门课程
--  thinking
-- discussion
-- extension 
-- inspiration
-- techniques
-- applications
+- Storage Type
+  - Physical
+  - Logical
+- Major Issue
+  - Transportation
+  - Errors and Corruption
 
-learning != Listening
+### 9. Big Data
 
-
-Tell me I forget.
-Teach me I remember.
-Involve me and I learn.
-
-traning of the mind to think 
-
-## The unity of knowing and doing
-
-
-### data types
-
-### storage
-
-### Major Issues
-
-### BIg data
- - 核心概念
- - velocity
- 	- 
- - volume TB to ZB
- - variety
- 	- 结构化数据
- 	- 非结构化数据
+> **Big data** is **high-volume**, **high-velocity** and **high-variety** information assets that demand cost-effective, innovative forms of information processing for enhanced insight and decision making.”  
 
 #### 大数据的应用
 - public security
-- Health Care Application
-	- overtreatment
-	- undertreatment
-	- personalized medicine
-	- urban planning (Location Data) 
-	- Mobile Data(Location Data)
-	- Shoper(Location Data) via RFID
+- Health Care  and Application
+  - overtreatment
+  - undertreatment
+  - personalized medicine
+- Location Data
+  - urban planning 
+  - Mobile Data
+  - Shoper via RFID
 - Retail Data
-	- targeted marketing(Customer service)
-	- sentiment analysis(comments)
-	- social Networks
-	- Sports 《money ball》
-	- attractiveness Mining 
+  - targeted marketing(Customer service)目标客户
+  - sentiment analysis(comments) 情感分析
+- social Networks
+- Sports 
+  - 《money ball》
+- attractiveness Mining （魅力挖掘）
 
 ## From data to Knowledge
 
 data -> information -> knowledge -> decision support
 database preprocessing data-mining  decision models
-### Open data 
+
+### 10. Open data 
 - technical open
 - legally open
 - open government data
 
-### Data mining
+### 11. Data mining
 
-- statistics
-- definition
-	- interesting, useful, hidden, massive
-- not a fully automatic process
+- Statistics
+
+  - Mean, Variance, Correlation, Distribution 
+
+- Definition
+
+  - Data Mining is the process of automatically extracting **interesting** and **useful** **hidden** patterns from usually **massive**, incomplete and noisy data.
+
+    
+
+- Not a fully automatic process
+
+  - Human interventions are often inevitable.
+  - Domain Knowledge
+  - Data  Collection and Pre-processing
+
 - synonym: knowledge discovery
 
 ### Is DM really important？
@@ -141,8 +162,14 @@ database preprocessing data-mining  decision models
 	- cross validation
 
 * data 
-	- training set
-	- Test set 
+  - training set
+  - Test set 
+
+| First Header |      | First Header | First Header | Second Header |
+| ------------ | ---- | ------------ | ------------ | ------------- |
+|              |      |              | Content Cell | Content Cell  |
+|              |      |              | Content Cell | Content Cell  |
+|              |      |              |              |               |
 
 - confusion Matrix
 	- TPR = TP/(TP + FN)
@@ -155,3 +182,41 @@ database preprocessing data-mining  decision models
 	- waterfall analysis
 
 #### clustering and other data Mining Problems
+
+- clustering 聚类
+
+- distance metrics
+	- euclidean distance （欧氏距离）
+	- Manhattan distance  (曼哈顿距离)
+	- mahalanobis distance （马氏距离）
+
+
+- algorithm 
+	- K-means
+	- Sequential Leader
+	- hierarchical clustering
+
+- association rules 关联规则
+- regression 回归
+参数与变量之间是线性的拟合。非最后的表达式的结果是线性的
+
+- performance dashboard
+
+- data preprocessing
+
+
+### privacy protection and parallel  computing
+
+- cloud computing 
+
+
+- parallel computing
+
+- The big picture 
+
+- 数据、算法、计算平台
+
+处理问题先从简单的算法开始，能解决问题即可
+
+misty mystery
+
