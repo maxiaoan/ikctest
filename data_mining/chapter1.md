@@ -10,7 +10,7 @@
 
 ## 2. The World of Data 
 - social networks
-- future goods
+- future goods 
 - mobile phone
 - credit card
 - health and financial
@@ -137,23 +137,26 @@
 
 #### From data to Knowledge
 
+ 	1. Data --> Information --> Knowledge --> Decision support 
+ 	2. Database --> Preprocessing --> Data mining --> Decision models
+
 ```mermaid
 graph LR
-Data --> Information --> Knowledge --> Decision support 
-Database --> Preprocessing --> Data mining --> Decision models
+Data --> Information
+Database --> Preprocessing
 ```
 
 #### Data integration & Analysis
 
 - From ERP、CRM、Flat files through **ETL** to Data  warehouse  and then Data Mining.
 
-![dataintegration](/Users/maxiaoan/ikctest/data_mining/picture/dataintegration.png)
+![dataintegration](https://github.com/maxiaoan/ikctest/blob/master/data_mining/picture/dataintegration.png)
 
 **ETL:**  stands for extraction, transportation, loading
 
 #### The process of data mining
 
-![processing of data](/Users/maxiaoan/ikctest/data_mining/picture/processing of data.png)
+![processing of data](https://github.com/maxiaoan/ikctest/blob/master/data_mining/picture/processing%20of%20data.png)
 
 #### Data Ming software
 
@@ -193,7 +196,7 @@ Database --> Preprocessing --> Data mining --> Decision models
 
 ##### confusion Matrix
 
-![confusion matrix](/Users/maxiaoan/ikctest/data_mining/picture/confusion matrix.png)
+![confusion matrix](https://github.com/maxiaoan/ikctest/blob/master/data_mining/picture/confusion%20matrix.png)
 
 - TPR = TP/(TP + FN)	
 
