@@ -52,7 +52,7 @@
   - Customer Relationship Management
   - Big Data
 
-### 7. Comprehensive Learning
+### 7. Comprehensive Learning  of Data Mining
 
 - Class Teaching
   - Thinking
