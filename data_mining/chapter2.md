@@ -108,9 +108,10 @@ In statistics, sampling is applied often because obtaining the entire set of dat
 ### Feature Selection
 - Class Distributions
 - Entropy量化（熵）
-  - 熵用来衡量系统的不确定性
+  - 熵用来衡量系统的不确定性（熵越小越好）
   - Information Gain信息增益
-    - 知道某个属性，可以降低系统预测信息的不确定性，数值越小越好，可以降低系统不确定的幅度
+    - 原始的熵 - 附加属性之后的熵 = 信息增益
+    - 知道某个属性，可以降低系统预测信息的不确定性，信息增益数值越大越好，可以降低系统不确定的幅度
 - Feature Subset Search
   - Exhaustive 
   - All possible combinations 枚举组合
